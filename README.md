@@ -11,7 +11,7 @@ In order to install it on your PYNQ board, connect to the board, open a terminal
 # (on PYNQ v2.3 only)
 sudo pip3 install git+https://github.com/sumilao/pynq-sense-hat.git
 ```
-### Standaloen Install
+### Standalone Install
 ```shell
 # (on PYNQ v2.3 only)
 cd pynq-sense-hat
