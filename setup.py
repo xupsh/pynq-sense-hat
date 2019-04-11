@@ -11,15 +11,6 @@ if os.environ['BOARD'] != 'Pynq-Z2':
     print("Only supported on a Pynq-Z2 Board")
     exit(1)
 
-WORK_DIR = os.path.dirname(os.path.realpath(__file__))
-
-shutil.copy2(WORK_DIR + "/sensehat/rpc.py","/usr/local/lib/python3.6/dist-packages/pynq/lib/pynqmicroblaze/rpc.py")
-
-if 'install' in sys.argv:
-    if os.path.isdir(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-sense-hat/"):
-        shutil.rmtree(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-sense-hat/")
-    shutil.copytree(WORK_DIR + "/boards/Pynq-Z2/notebooks/",os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-sense-hat/")
-
 setup(
 	name = "sensehat",
 	version = 1.0,
@@ -39,3 +30,11 @@ setup(
     ],
 )
 
+WORK_DIR = os.path.dirname(os.path.realpath(__file__))
+
+shutil.copy2(WORK_DIR + "/sensehat/rpc.py","/usr/local/lib/python3.6/dist-packages/pynq/lib/pynqmicroblaze/rpc.py")
+
+if 'install' in sys.argv:
+    if os.path.isdir(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-sense-hat/"):
+        shutil.rmtree(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-sense-hat/")
+    shutil.copytree(WORK_DIR + "/boards/Pynq-Z2/notebooks/",os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-sense-hat/")
