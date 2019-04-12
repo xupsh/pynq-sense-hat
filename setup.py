@@ -14,7 +14,7 @@ if os.environ['BOARD'] != 'Pynq-Z2':
 setup(
 	name = "sensehat",
 	version = 1.0,
-	url = 'https://github.com/sumilao/pynq-sense-hat',
+	url = 'https://github.com/xupsh/pynq-sense-hat',
 	license = 'BSD 3-Clause License',
 	author = "Jin Yongwei",
 	author_email = "yongweij@xilinx.com",
