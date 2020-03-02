@@ -24,7 +24,7 @@ NOTE: This command must be run as root.
 
 Sense HAT is a multiple devices integrated platform designed for Raspber Pi. All the devices on the Board can be access via IIC bus 1(GPIO2 as SDA and GPIO3 as SCL) with different device address. 
 
-![](./boards/Pynq-Z2/notebooks/data/Sense_HAT_inrto.jpg)
+![](./boards/Pynq-Z2/notebooks/data/Sense_HAT_intro.jpg)
 
 1.LED matrix controller: This microcontroller drives the LED matrix. Address:0x46  
 2.LED matirx: This 8x8 LED matrix displays characters or pictures.  
