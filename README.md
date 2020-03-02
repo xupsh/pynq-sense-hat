@@ -25,7 +25,7 @@ After the installation, a folder pynq-sense-hat shuold be seen in `/home/xilinx/
 
 ## About Sense HAT
 
-Sense HAT is a multiple devices integrated platform designed for Raspber Pi. All the devices on the Board can be access via IIC bus 1(GPIO2 as SDA and GPIO3 as SCL) with different device address. 
+Sense HAT is a platform designed for Raspber Pi with multiple devices integrated. All the devices on the Board can be access via IIC bus 1 (GPIO2 as SDA and GPIO3 as SCL) with different device address. 
 
 ![](./boards/Pynq-Z2/notebooks/data/Sense_HAT_intro.jpg)
 
