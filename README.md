@@ -23,7 +23,7 @@ NOTE: This command must be run as root.
 ### Run the examples  
 After the installation, a folder pynq-sense-hat shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 3 .ipynb files in it, and you can run them.
 
-## About Sense Hat
+## About Sense HAT
 
 Sense HAT is a multiple devices integrated platform designed for Raspber Pi. All the devices on the Board can be access via IIC bus 1(GPIO2 as SDA and GPIO3 as SCL) with different device address. 
 
