@@ -19,7 +19,8 @@ sudo python setup.py install
 ```
 
 NOTE: This command must be run as root.
-
+### Connect SensHAT to PYNQ-Z2 board  
+![](./boards/Pynq-Z2/notebooks/data/PYNQ_with_Sense_HAT.jpg)
 ### Run the examples  
 After the installation, a folder pynq-sense-hat shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 3 .ipynb files in it and you can run them.
 
@@ -35,3 +36,5 @@ Sense HAT is a platform designed for Raspber Pi with multiple devices integrated
 4.Joystick: This five-button joystick allows for up, down, left, and right movements, as well as an Enter via a click.  
 5.LPS25H: A temperature and humidity sensor.  
 6.HTS221: A barometric pressure sensor.  
+
+You can buy a SenseHAT and learn more about it from [here](https://www.raspberrypi.org/products/sense-hat/)
