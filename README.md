@@ -1,17 +1,17 @@
 # PYNQ-Sense-HAT
 
-This repo contains the pip install package for Sense HAT on PYNQ. It's only support PYNQ Z2 board. There are 3 notebook explaining the usage of Sense HAT.
-
+This repo contains the pip install package for Sense HAT Overlay on PYNQ. It's only support PYNQ Z2 board currently. There are 3 notebook explaining the usage of Sense HAT.
+![](./boards/Pynq-Z2/notebooks/data/PYNQ_with_Sense_HAT.jpg)
 ## Quick Start
 
-In order to install it on your PYNQ board, connect to the board, open a terminal and type:
+In order to install the Overlay on your PYNQ board, open a terminal and type:
 
-### Online Install
+### *Online Install*
 ```shell
 # (on PYNQ v2.3 or v2.4 only)
 sudo pip3 install git+https://github.com/xupsh/pynq-sense-hat.git
 ```
-### Standalone Install
+### *Standalone Install*
 ```shell
 # (on PYNQ v2.3 or v2.4 only)
 cd pynq-sense-hat
@@ -19,14 +19,13 @@ sudo python setup.py install
 ```
 
 NOTE: This command must be run as root.
-### Connect SensHAT to PYNQ-Z2 board  
-![](./boards/Pynq-Z2/notebooks/data/PYNQ_with_Sense_HAT.jpg)
-### Run the examples  
-After the installation, a folder pynq-sense-hat shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 3 .ipynb files in it and you can run them.
+
+## Run the examples  
+After the installation, a folder pynq-sense-hat shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 3 .ipynb files you can try..
 
 ## About Sense HAT
 
-Sense HAT is a platform designed for Raspber Pi with multiple devices integrated. All the devices on the Board can be access via IIC bus 1 (GPIO2 as SDA and GPIO3 as SCL) with different device address. 
+Sense HAT is a platform designed with multiple devices integrated and Raspberry Pi interface. All the devices on the Board can be access via IIC bus (GPIO2 as SDA and GPIO3 as SCL) with different device address. 
 
 ![](./boards/Pynq-Z2/notebooks/data/Sense_HAT_intro.jpg)
 
@@ -37,4 +36,4 @@ Sense HAT is a platform designed for Raspber Pi with multiple devices integrated
 5.LPS25H: A temperature and humidity sensor.  
 6.HTS221: A barometric pressure sensor.  
 
-You can buy a SenseHAT and learn more about it from [here](https://www.raspberrypi.org/products/sense-hat/)
+More information about it, please click [here](https://www.raspberrypi.org/products/sense-hat/).
