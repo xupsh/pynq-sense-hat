@@ -1,7 +1,9 @@
 # PYNQ-Sense-HAT
 
 This repo contains the pip install package for Sense HAT Overlay on PYNQ. It's only support PYNQ Z2 board currently. There are 3 notebook explaining the usage of Sense HAT.
+
 ![](./boards/Pynq-Z2/notebooks/data/PYNQ_with_Sense_HAT.jpg)
+
 ## Quick Start
 
 In order to install the Overlay on your PYNQ board, open a terminal and type:
